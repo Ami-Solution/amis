@@ -1,0 +1,65 @@
+/* ------------------------------------------------------------ *\
+	Position
+\* ------------------------------------------------------------ */
+
+.positions { list-style-type: none; display: inline-block; vertical-align: top; width: 66.66%; }
+
+.position { display: inline-block; background: #fff; border: 0.5px solid rgba(151,151,151,.5); box-shadow: 0 0 3px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.25); vertical-align: top; font: 400 14px/1.06 'Marven Pro', sans-serif; padding: 18px 24px 24px 24px; width: 357px; margin: 0px 20px 20px 0px; min-height: 233px; }
+.position:last-child { margin-right: 0; }
+
+.position h4 { font-size: 18px; color: #2961ac; font-weight: 500; margin-bottom: 12px; }
+.position span { color: #2961ac; font-size: 14px; }
+.position strong { font-weight: 700; color: #2961ac; }
+.position p { color: #4a4a4a; margin-bottom: 5px; font-size: 15px; }
+.position p span { font-size: 15px; }
+
+.position .position-head { padding-bottom: 16px; border-bottom: 1px solid #d8d7d7; margin-bottom: 16px; position: relative; }
+
+.position .position-head .link { position: absolute; top: -10px; right: -10px; }
+.position .position-head p { margin-bottom: 15px; }
+.position .position-head strong { float: right; }
+
+.position .position-head h4 + p span + span { padding-left: 8px; margin-left: 8px; display: inline-block; position: relative; }
+.position .position-head h4 + p span + span:before { content: ''; display: inline-block; width: 1px; height: 11px; background: #2961ac; position: absolute; top: 3px; left: -1px; }
+
+.position .position-body i { color: #d8d7d7; display: inline-block; vertical-align: middle;  margin-left: -6px; }
+
+.position .position-body p span + span { margin-left: 10px; }
+.position .position-body p i { position: relative; top: 13px; }
+
+.position .position-body .link { margin-top: 12px; }
+.position .position-body .link i { color: #2961ac; }
+
+.position .position-body .file-list { padding-top: 16px; }
+
+$breakpoint-small-desktop {
+	.positions { width: 100%; }
+
+	.position { width: 48%; }
+}
+
+$breakpoint-tablet-portrait {
+	.position { width: 100%; display: block; margin-bottom: 30px; margin-right: 0; }
+	.position:last-child { margin-bottom: 0; }
+}
+
+$breakpoint-mobile-portrait {
+	.position { padding: 18px 15px 24px; }
+
+	.position span { display: block; margin-bottom: 5px; }
+	.position strong { display: block; float: none; width: 100%; }
+
+	.position .position-head strong { float: none; }
+
+	.position .position-head h4 + p span + span { padding-left: 0; margin-left: 0; }
+	.position .position-head h4 + p span + span:before { display: none; }
+
+	.position .position-body p span + span { margin-left: 0; }
+}
+
+/*  Position-Secondary  */
+
+$breakpoint-small-desktop {
+	.position-secondary { width: 100%; margin-bottom: 30px; }
+}
+

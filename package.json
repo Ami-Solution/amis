@@ -1,7 +1,7 @@
 {
-  "name": "AMIS",
+  "name": "Amis",
   "version": "2.1.1",
-  "description": "AMIS ",
+  "description": "Amis",
   "author": null,
   "main": "js/app.js",
   "scripts": {
@@ -9,8 +9,8 @@
     "build": "cross-env NODE_ENV=production webpack --config webpack.production.config.js --progress --profile --colors",
     "dev": "babel-node server.js",
     "lint": "eslint js/**",
-    "build": "node server.production",
-    "start": "npm run build"
+    "start": "node server",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "autoprefixer": "^6.3.7",

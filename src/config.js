@@ -1,3 +1,3 @@
 module.exports = {
-  baseUrl: ' https://dazzling-magazine.glitch.me'
+  baseUrl: ' https://dynamisapp-develop.herokuapp.com/'
 };

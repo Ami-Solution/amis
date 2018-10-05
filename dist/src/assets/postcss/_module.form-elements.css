@@ -1,0 +1,118 @@
+/* ------------------------------------------------------------ *\
+	Form Elements
+\* ------------------------------------------------------------ */
+
+input::placeholder { color: inherit; opacity: 1; }
+textarea::placeholder { color: inherit; opacity: 1; }
+
+input:-webkit-autofill { -webkit-text-fill-color: inherit; -webkit-box-shadow: 0 0 0 1000px #fff inset; }
+
+.field {}
+.textarea {}
+.select {}
+.radio {}
+.checkbox {}
+
+/*  Checkbox  */
+
+.checkbox { font: 400 15px/1.27 'Marven Pro', sans-serif; color: #4a4a4a; padding: 3px 0 0 3px; }
+
+.checkbox label { padding-left: 30px; }
+
+.checkbox input[type="checkbox"] { 
+	display: inline-block;
+  padding-left: 5px;
+  position: relative;
+  opacity: 0;
+}
+.checkbox input[type="checkbox"] + label::before{ 
+	background-color: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #9b9b9b;
+    content: "";
+    display: inline-block;
+    height: 17px;
+    left: 0;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+    width: 17px;
+    outline: none !important;
+}
+.checkbox input[type="checkbox"] + label::after {
+  display: inline-block;
+  height: 16px;
+  left: 0;
+  margin-left: -20px;
+  padding-left: 3px;
+  padding-top: 1px;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+.checkbox input[type="checkbox"]:checked + label::before { 
+	background-color: #2961ac;
+  border-color: #2961ac;
+}
+
+$breakpoint-mobile {
+	.checkbox { padding: 0; }	
+}
+
+/*  Radio  */
+
+.radio { color: #000; }
+
+.radio input[type="radio"] {
+  cursor: pointer;
+  opacity: 0;
+  z-index: 1;
+  outline: none !important;
+  position: absolute;
+  margin-left: -20px;
+}
+
+.radio input[type="radio"] + label::before {
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #cccccc;
+  content: "";
+  display: inline-block;
+  height: 22px;
+  left: 0;
+  margin-left: -11px;
+  outline: none !important;
+  position: absolute;
+  transition: border 0.5s ease-in-out;
+  width: 22px;        
+}
+
+.radio input[type="radio"]:checked + label::after {
+  background-color: #ef5350; ;
+  border-radius: 50%;
+  content: " ";
+  display: inline-block;
+  height: 16px;
+  left: 3px;
+  margin-left: -11px;
+  position: absolute;
+  top: 3px;
+  transform: scale(0, 0);
+  transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+  width: 16px;
+  transform: scale(1, 1);
+}
+
+$breakpoint-mobile {
+	.radio input[type="radio"] + label { padding-left: 30px; }
+}
+
+/*  Radio-Secondary  */
+
+.radio-secondary { font-weight: 700; }
+
+.radio-secondary input[type="radio"] + label { padding-left: 43px; }
+.radio-secondary .link { display: inline-block; vertical-align: middle; }
+
+$breakpoint-mobile-portrait {
+	.radio-secondary input[type="radio"] + label { padding-left: 30px; }	
+}

@@ -1,0 +1,31 @@
+/* ------------------------------------------------------------ *\
+	Table
+\* ------------------------------------------------------------ */
+
+.table { position: relative; margin: -11px 0 0; }
+.table table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+.table td { background: #F9F9F9; border-width: 11px 0; border-style: solid; border-color: #fff; font-size: 16px; height: 33px; color: #4A4A4A; transition: background .15s; }
+.table td i { font-size: 33px; color: #9B9B9B; vertical-align: middle; margin: 0 5px; }
+.table tr:hover td { background: #dcdcdc; }
+
+
+/*  Table Policy Details  */
+
+.table-policy-details { margin: -11px -11px 0; }
+.table-policy-details td { border-width: 11px; padding: 7px 10px; color: #2960AC; }
+.table-policy-details tr td:first-child { text-align: right; color: #000; }
+
+/*  Table-Account  */
+
+.table-account { font: 400 15px/1.27 'Maven Pro', sans-serif; color: #4a4a4a; width: 35.94%; }
+
+.table-account td { padding-bottom: 18px; }
+.table-account span { color: #2961ac; }
+
+/* ------------------------------------------------------------ *\
+	Responsive
+\* ------------------------------------------------------------ */
+
+$breakpoint-small-desktop {
+	.table td { font-size: 14px; }
+}

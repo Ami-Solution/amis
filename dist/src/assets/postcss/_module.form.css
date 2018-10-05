@@ -1,0 +1,152 @@
+/* ------------------------------------------------------------ *\
+	Form
+\* ------------------------------------------------------------ */
+
+.form h5 { font: 400 15px/1.27 'Maven Pro', sans-serif; color: #048a16; margin-bottom: 0; }
+
+.form .form-head { margin-bottom: 10px; }
+.form .field { appearance: none; border: 0; border-bottom: 1px solid  #9b9b9b; width: 100%; font: 400 16px/1.19 'Maven Pro', sans-serif; color: #000; padding: 0 15px 16px 0; transition: border-color .2s ease; border-radius: 0; }
+.form .field:focus { border-color: #2961ac; }
+.form .form-body { margin-bottom: 15px; }
+.form .link { float: right; margin-top: 16px; }
+.form .btn-blue { float: left; }
+.form .error { color: #cb3837; position: absolute;}
+
+.form .field::-webkit-input-placeholder { color: #4a4a4a;  }
+.form .field::-moz-placeholder { color: #4a4a4a;  }
+.form .field:-moz-placeholder { color: #4a4a4a;  }
+.form .field:-ms-input-placeholder { color: #4a4a4a;  }
+
+.form .form-actions:after { @mixin clearfix; }
+
+/*  Form-Identity */
+
+.form-identity .form-row { margin-bottom: 35px; }
+.form-identity .form-row:last-child { margin-bottom: 25px; }
+
+/*  Form-Account  */
+
+.form-account .form-head { margin-bottom: 21px; }
+.form-account .form-body { margin-bottom: 29px; }
+.form-account .field { font: 400 15px/1.27 'Maven Pro', sans-serif; padding-bottom: 11px; }
+.form-account .form-row { margin-bottom: 35px; }
+.form-account .form-row:last-child { margin-bottom: 25px; }
+
+.form-account .form-head h2 { margin-bottom: 0; }
+
+/*  Form-History  */
+
+.form-history .form-col { float: left; }
+.form-history .form-row { margin-bottom: 30px; }
+.form-history .form-section { padding-bottom: 10px; }
+.form-history .form-head { margin-bottom: 38px; }
+.form-history .form-head-inner { margin-top: 26px; }
+
+.form-history .form-col-1of3 { width: 31.7%; margin-right: 2.23%; }
+.form-history .form-col-1of3:last-child { margin-right: 0; }
+
+.form-history .form-col-1of2 { width: 48%; margin-right: 0.89%; }
+.form-history .form-col-1of2:last-child { margin-right: 0; }
+
+.form-history .form-row:after { @mixin clearfix; }
+.form-history .field, 
+.form-history .select { font: 400 15px/1.27 'Maven Pro', sans-serif; padding: 0 15px 11px 0;  width: 100%; appearance: none; border: 0; border-bottom: 1px solid  #9b9b9b; border-radius: 0; }
+
+.form-history .select { padding: 0 15px 10px 0; background: #fff url(../css/images/select-bg.png) no-repeat 98% 40%; color: #4a4a4a; }
+
+.form-history .form-head h2 { display: inline-block; vertical-align: middle; margin-right: 8px; }
+.form-history .form-head h5 { display: inline-block; vertical-align: middle; }
+
+.form-history .form-section h5 { margin-bottom: 17px; }
+
+.form-history .field-upload { display: none; }
+.form-history .form-label-upload { background-color: #2961ac; width: 50px; height: 50px; display: inline-block; border-radius: 50%; box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.2); position: relative; vertical-align: middle; margin-right: 10px; transition: background .15s, box-shadow .15s; }
+.form-history .form-label-upload i { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 24px; font-weight: 400; line-height: 1; color: #fff; }
+.form-history .link { float: none; display: inline-block; vertical-align: middle; margin-top: 0; font-size: 15px; }
+.form-history .btn-blue { margin-right: 1.61%; }
+
+.form-history .form-label-upload:hover { box-shadow: 0 0 2px rgba(0,0,0,.12), 0 2px 10px rgba(0,0,0,.36); background: #26A9E0;}
+
+.form-history .form-head-inner .months { margin-top: -10px; }
+.form-history .form-head-inner .positions { margin-right: 15px; }
+
+$breakpoint-small-desktop {
+	.form-history .form-head-inner .months { margin-top: 0; }
+}
+
+$breakpoint-mobile {
+	.form-history .form-col { float: none; margin-bottom: 30px; }
+	.form-history .form-col-1of3 { width: 100%; display: block; margin-right: 0; }
+	.form-history .form-col-1of2 { width: 100%; display: block; margin-right: 0; }
+	.form-history .form-row { margin-bottom: 0; }
+	.form-history .form-section { padding-bottom: 0; }
+}
+
+$breakpoint-mobile-portrait {
+	.form-history .form-head h2 { display: block; margin-right: 0; }
+	.form-history .form-head h5 { display: block; }
+
+	.form-history .btn-blue { margin-right: 0; margin-bottom: 30px; }	
+}
+
+/*  Form-Assessment  */
+
+.form-assessment { max-width: 910px; }
+
+.form-assessment .form-head { margin-bottom: 29px; }
+.form-assessment .form-body { margin-bottom: 90px; }
+.form-assessment .form-actions { padding-left: 8px; }
+.form-assessment .form-section { font: 400 18px/1.33 'Maven Pro', sans-serif; color: #4a4a4a; }
+.form-assessment .form-section:first-child { margin-bottom: 50px; }
+.form-assessment .list-radios { padding-left: 50px; }
+
+.form-assessment .form-head h2 { display: inline-block; vertical-align: middle; margin-right: 4px; }
+.form-assessment .link { display: inline-block; float: none; vertical-align: middle; margin-top: 0; }
+
+.form-assessment .form-section p { margin-bottom: 33px; }
+
+.form-assessment .form-actions .btn-blue { float: none; vertical-align: middle; margin-right: 28px; }
+
+$breakpoint-tablet-portrait {
+	.form-assessment { max-width: 100%; }	
+
+	.form-assessment .form-head { margin-bottom: 30px; }
+	.form-assessment .form-body { margin-bottom: 30px; }
+	.form-assessment .form-actions { padding-left: 0; }
+	.form-assessment .form-section:first-child { margin-bottom: 30px; }
+	.form-assessment .list-radios { padding-left: 0; }
+}
+
+$breakpoint-mobile {
+	.form-assessment .form-section p br { display: none; }
+
+	.form-assessment .form-head h2 { display: block; margin-right: 0; margin-bottom: 10px; }
+
+	.form-assessment .link { display: block; width: 100%; }
+
+	.form-assessment .form-actions .btn-blue { margin-right: 0; margin-bottom: 10px; }
+}
+
+$breakpoint-mobile-portrait {
+	.form-assessment .form-section { font-size: 15px; }
+}
+
+/*  Form-Signature  */
+
+.form-signature .form-content { background: #fff; padding: 7px 15px 7px 21px; margin-top: -5px; }
+
+.form-signature .form-body { width: 100%; display: inline-block; vertical-align: middle; margin-right: 13px; padding-top: 13px; }
+.form-signature .form-actions { display: inline-block; vertical-align: middle; }
+.form-signature .field { font-size: 15px; line-height: 1.27; padding: 0 15px 11px 0; }
+
+$breakpoint-small-desktop {
+	.form-signature .form-body { width: 55%; }
+}
+
+$breakpoint-tablet-portrait {
+	.form-signature .form-content { padding: 20px 15px; margin-top: 0; }
+
+	.form-signature .form-body { width: 100%; display: block; margin-right: 0; margin-bottom: 20px; padding-top: 0; }
+	.form-signature .form-actions { display: block; width: 100%; }
+	.form-signature .form-actions .btn-blue { display: block; width: 100%; }
+}

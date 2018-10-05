@@ -1,0 +1,20 @@
+/* ------------------------------------------------------------ *\
+	Intro
+\* ------------------------------------------------------------ */
+
+.intro { min-height: 520px; padding: 90px 0 0 0; text-align: center; }
+
+.intro .intro-inner { max-width: 682px; margin: auto; }
+.intro .intro-content { font: 400 28px/1.21 'Helvetica', sans-serif; color: #fff; text-align: left; margin-bottom: 93px; }
+.intro .link { font-size: 20px; font-weight: 500; color: #00d1ff; display: inline-block; vertical-align: bottom; }
+
+$breakpoint-mobile {
+	.intro { min-height: 100%; padding: 90px 0; }	
+
+	.intro .intro-inner { max-width: 100%; }
+	.intro .intro-content { text-align: center; margin-bottom: 90px; }
+}
+
+$breakpoint-mobile-portrait {
+	.intro .intro-content { font-size: 22px; }
+}

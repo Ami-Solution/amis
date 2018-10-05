@@ -1,8 +1,8 @@
 const webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
-const config = require('./webpack.config');
+const config = require('./webpack.production.config');
 
-const port = 3000,
+const port = 3001,
       host = 'localhost';
 
 new WebpackDevServer(webpack(config), {

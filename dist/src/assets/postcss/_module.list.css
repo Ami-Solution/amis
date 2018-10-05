@@ -1,0 +1,98 @@
+/* ------------------------------------------------------------ *\
+	List
+\* ------------------------------------------------------------ */
+
+[class^="list-"] { list-style: none outside none; }
+
+/*  List Options  */
+
+.list-options { margin-left: 90px; text-align: left; margin-bottom: 40px; }
+.list-options li { font-size: 25px; line-height: 75px; }
+.list-options li ~ li { margin-top: 40px; }
+.list-options li a { padding-left: 115px; position: relative; color: #000; transition: color .15s; display: block; }
+.list-options li a:hover { text-decoration: none; color: #26A9E0; }
+.list-options li i { position: absolute; top: 50%; left: 52px; transform: translate(-50%,-50%); }
+
+/*  List-Links  */
+
+.list-links { font: 400 15px/1.13 'Maven Pro', sans-serif; display: inline-block; padding-top: 12px; position: relative; }
+.list-links:before {  content: ''; display: inline-block; width: 700px; height: 1px; background: #d8d7d7; position: absolute; top: calc(50% + 8px); left: 50%; transform: translate(-50%, -50%); }
+
+.list-links li { display: inline-block; vertical-align: middle; width: 10%; margin-right: 66px; position: relative; }
+.list-links li:last-child { margin-right: 0; }
+.list-links li:first-child span { top: -20px; }
+.list-links a { text-decoration: none; color: #4a4a4a; background: #fff; position: relative; z-index: 20; display: block; }
+.list-links p { text-decoration: none; color: #4a4a4a; background: #fff; position: relative; z-index: 20; display: block; }
+.list-links span { width: 11px; height: 11px; display: inline-block; background: #d8d7d7; border-radius: 50%; position: absolute; top: -14px; left: 50%; transform: translateX(-50%); }
+.list-links i { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); visibility: hidden; opacity: 0; transition: opacity .2s; }
+
+.list-links .active span { background: #26a9e0; }
+
+.list-links .prev span { background: #26a9e0; }
+.list-links .prev i { visibility: visible; opacity: 1; }
+
+/*  List-Months  */
+
+.list-months { display: inline-block; vertical-align: middle; }
+
+.list-months li { display: inline-block; background: #d8d7d7; width: 18px; height: 14px; position: relative; margin-right: 3px; }
+.list-months li:last-child { margin-right: 0; }
+.list-months a { display: block; background: #d8d7d7; width: 100%; height: 100%; }
+.list-months .blue a { background: #2961ac; }
+
+$breakpoint-mobile-portrait {
+	.list-months li { width: 27px; height: 23px; }
+}
+
+/*  List-Radios  */
+
+.list-radios li { margin-bottom: 20px; }
+.list-radios li:last-child { margin-bottom: 0; }
+
+/*  List-Questions  */
+
+.list-questions { font: 500 18px/1.33 'Maven Pro', sans-serif; color: #4a4a4a; }
+
+.list-questions li { margin-bottom: 25px; }
+.list-questions li:last-child { margin-bottom: 0; }
+
+$breakpoint-mobile-portrait {
+	.list-questions { font-size: 15px; }	
+}
+
+/* ------------------------------------------------------------ *\
+	Responsive
+\* ------------------------------------------------------------ */
+
+$breakpoint-small-desktop {
+	.list-options { margin-left: 0; }
+}
+
+$breakpoint-tablet-portrait {
+	.list-options li { font-size: 18px; }
+	.list-options li a { padding-left: 80px; }
+	.list-options li i { left: 30px; transform: translate(-50%,-50%) scale(.7); }
+
+	.list-links:before { width: 86%; }
+}
+
+$breakpoint-mobile {
+	.list-links:before { display: none; }	
+
+	.list-links li { margin-right: 33px; width: 20%; margin-bottom: 30px; }
+	.list-links li:nth-child(4),
+	.list-links li:nth-child(5) { margin-bottom: 0; }
+	.list-links a { background-color: transparent; }
+}
+
+$breakpoint-mobile-portrait {
+	.list-options li { font-size: 16px; line-height: 40px; }
+	.list-options li a { padding-left: 60px; }
+	.list-options li i { left: 24px; transform: translate(-50%,-50%) scale(.5); }
+	.list-options li ~ li { margin-top: 20px; }
+
+	.list-links { padding-top: 15px; }
+	.list-links li { margin-right: 0; display: block; width: 100%; }
+	.list-links li:nth-child(4) { margin-bottom: 30px; }
+	.list-links li:first-child span { top: -14px; }
+}

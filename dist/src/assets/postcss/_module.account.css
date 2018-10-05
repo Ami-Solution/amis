@@ -1,0 +1,21 @@
+/* ------------------------------------------------------------ *\
+	Account
+\* ------------------------------------------------------------ */
+
+.account { display: block; }
+
+.account .account-head { margin-bottom: 15px; }
+.account .account-body { padding-left: 17px; }
+
+.account .account-head h2 { display: inline-block; vertical-align: middle; margin-bottom: 0; margin-right: 5px; }
+.account .account-head .link { display: inline-block; vertical-align: middle; }
+
+$breakpoint-mobile-portrait {
+	.account { text-align: center; }
+
+	.account .account-body { padding-left: 0; display: inline-block; }
+
+	.account .account-head h2 { display: block; }
+	.account .account-head .link { display: block; }
+
+}
