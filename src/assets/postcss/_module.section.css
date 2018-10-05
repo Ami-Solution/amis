@@ -1,0 +1,107 @@
+/* ------------------------------------------------------------ *\
+	Section
+\* ------------------------------------------------------------ */
+
+.section {}
+
+/*  Section-Form  */
+
+.section-form h2 { font: 400 25px/1.16 'Work Sans', sans-serif; color: #4a4a4a; margin-bottom: 0; display: inline-block; vertical-align: middle; }
+.section-form h5 { font: 400 15px/1.27 'Maven Pro', sans-serif; color: #048a16; }
+
+.section-form .link { display: inline-block; vertical-align: middle; }
+
+.section-form .section-title { color: #fff; font: 500 15px/1.13 'Maven Pro', sans-serif; margin-bottom: 3px; } 
+.section-form .section-inner { background: #fff;  border: 0.5px solid #979797; min-height: 496px; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24), 0 0 2px rgba(0, 0, 0, 0.12); }
+.section-form .section-head { text-align: center; padding: 13px 0; box-shadow: 0 2px 16px rgba(0, 0, 0, 0.24); }
+.section-form .section-body { padding: 90px 80px; }
+.section-form .section-group-primary { margin-bottom: 53px; }
+.section-form .section-group-secondary { margin-bottom: 28px; }
+.section-form .section-group-tertiary { padding-bottom: 11px; }
+.section-form .section-group-quaternary { font-size: 17px; font-weight: 400; line-height: 1.24; color: #4a4a4a; font-family: 'Maven Pro', sans-serif; }
+
+.section-form .section-head .list-links { margin-left: -11px; }
+
+.section-form .section-group:after { @mixin clearfix; }
+.section-form .section-group .section-content { float: left; width: 49%; margin-right: 8.75%; }
+.section-form .section-group .section-aside { float: left; width: 36.36%; font: 400 21px/1.62 'Maven Pro', sans-serif; color: #4a4a4a; }
+
+.section-form .section-group .section-aside span { color: #2961ac; }
+.section-form .section-group .section-aside p { padding-left: 54px; margin-bottom: 31px; }
+
+.section-form .user { margin-top: -59px; width: 58%; margin-bottom: 50px; margin-left: -16px; }
+.section-form .account { width: 49%; margin-bottom: 50px; margin-left: -15px; }
+.section-form .employment { margin-left: -15px; margin-bottom: 50px; }
+.section-form .coverage { margin-bottom: 65px; }
+
+.section-form .section-group-secondary .section-aside { margin-top: -63px; }
+
+.section-form .section-group-quaternary .employment + h2 { margin-bottom: 12px; }
+.section-form .section-group-quaternary .slider { margin-bottom: 28px; }
+
+$breakpoint-tablet-portrait {
+	.section-form .section-body { padding: 90px 50px; }
+
+	.section-form .section-head .list-links { margin-left: 0; display: inline-block; }
+}
+
+$breakpoint-mobile {
+	.section-form h2 { font-size: 22px; }
+
+	.section-form .section-group .section-content { float: none; display: block; width: 100%; margin-right: 0; margin-bottom: 50px; }
+	.section-form .section-group .section-aside { float: none; display: block; width: 100%; margin-top: 0; }
+
+	.section-form .section-group .section-aside p { padding-left: 0; margin-bottom: 0;}
+	.section-form .section-group .section-aside p br { display: none; }
+	.section-form .section-group .section-aside img { padding-left: 0; float: right;  }
+
+	.section-form .user { margin-top: 0; margin-left: 0; width: 100%; }
+	.section-form .account { margin-left: 0; width: 100%; }
+	.section-form .employment { margin-left: 0; margin-bottom: 50px; }
+}
+
+$breakpoint-mobile-portrait {
+	.section-form h2 { display: block; }
+
+	.section-form .section-body { padding: 30px; }	
+
+	.section-form .section-group .section-aside p { margin-right: 10px; }
+
+	.section-form .btn-blue,
+	.section-form .btn-silver { width: 100%; display: block; margin-right: 0; }
+
+	.section-form .section-group-quaternary { font-size: 15px; }
+}
+
+/*  Section-Form-Secondary  */
+
+.section-form-secondary .section-body { padding-bottom: 0; }
+
+/*  Section-Form-Tertiary  */
+
+.section-form-tertiary .positions { margin-right: 14px; }
+
+$breakpoint-mobile-portrait {
+	.section-form-tertiary .positions { margin-right: 0; }	
+}
+
+/*  Section-Finalize  */
+
+.section-finalize .section-body { padding: 45px 80px 135px 80px; }
+.section-finalize .section-group-senary { margin-bottom: 42px; }
+.section-finalize .section-content { margin-bottom: 50px; }
+.section-finalize .section-actions { padding-left: 22px; }
+
+.section-finalize .section-actions .btn-blue { margin-right: 23px; }
+.section-finalize .section-actions .link { font-weight: 700; font-size: 15px; }
+
+$breakpoint-tablet-portrait {
+	.section-finalize .section-body { padding: 50px; }
+}
+
+$breakpoint-mobile-portrait {
+	.section-finalize .section-body { padding: 30px 20px; }
+	.section-finalize .section-actions { padding-left: 0; }
+
+	.section-finalize .section-actions .btn-blue { margin-right: 0; }
+}

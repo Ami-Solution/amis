@@ -1,0 +1,23 @@
+/* ------------------------------------------------------------ *\
+	Feature
+\* ------------------------------------------------------------ */
+
+.features { list-style-type: none; width: 100%; }
+.features:after { @mixin clearfix; }
+
+.feature { width: 23.2%; margin-right: 18px; float: left; text-align: left; }
+.feature:last-child { margin-right: 0; }
+
+.feature p { width: 100%; display: block; background: #fff; text-align: left; padding: 8px; font: 400 25px/1.16 'Work Sans', sans-serif; color: #2961ac; }
+.feature h6 { font: 700 15px/1.27 'Maven Pro', sans-serif; color: #000; }
+
+$breakpoint-small-desktop {
+	.feature { margin-right: 15px; }
+
+	.feature p { font-size: 20px; }
+}
+
+$breakpoint-tablet-portrait {
+	.feature { width: 100%; display: block; float: none; margin-bottom: 13px; }
+	.feature:last-child { margin-bottom: 0; }
+}

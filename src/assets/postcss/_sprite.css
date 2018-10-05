@@ -1,0 +1,38 @@
+.ico-check-secondary { background: url(../css/images/sprite/ico-check-secondary.png) no-repeat 0 0; width: 9px; height: 7px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-check { background: url(../css/images/sprite/ico-check.png) no-repeat 0 0; width: 9px; height: 7px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-claim { background: url(../css/images/sprite/ico-claim.png) no-repeat 0 0; width: 56px; height: 56px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-close-policy { background: url(../css/images/sprite/ico-close-policy.png) no-repeat 0 0; width: 64px; height: 72px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-history { background: url(../css/images/sprite/ico-history.png) no-repeat 0 0; width: 60px; height: 45px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-umbrellas { background: url(../css/images/sprite/ico-umbrellas.png) no-repeat 0 0; width: 109px; height: 48px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-verify { background: url(../css/images/sprite/ico-verify.png) no-repeat 0 0; width: 57px; height: 74px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-wallet { background: url(../css/images/sprite/ico-wallet.png) no-repeat 0 0; width: 32px; height: 28px; display: inline-block; vertical-align: middle; font-size: 0; }
+.logo-footer { background: url(../css/images/sprite/logo-footer.png) no-repeat 0 0; width: 73px; height: 83px; display: inline-block; vertical-align: middle; font-size: 0; }
+.logo-mobile { background: url(../css/images/sprite/logo-mobile.png) no-repeat 0 0; width: 132px; height: 25px; display: inline-block; vertical-align: middle; font-size: 0; }
+.logo { background: url(../css/images/sprite/logo.png) no-repeat 0 0; width: 199px; height: 38px; display: inline-block; vertical-align: middle; font-size: 0; }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	.ico-check-secondary { background: url(../css/images/sprite/ico-check-secondary@2x.png) no-repeat 0 0; width: 9px; height: 7px; background-size: 9px 7px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-check { background: url(../css/images/sprite/ico-check@2x.png) no-repeat 0 0; width: 9px; height: 7px; background-size: 9px 7px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-claim { background: url(../css/images/sprite/ico-claim@2x.png) no-repeat 0 0; width: 56px; height: 56px; background-size: 56px 56px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-close-policy { background: url(../css/images/sprite/ico-close-policy@2x.png) no-repeat 0 0; width: 64px; height: 72px; background-size: 64px 72px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-history { background: url(../css/images/sprite/ico-history@2x.png) no-repeat 0 0; width: 60px; height: 45px; background-size: 60px 45px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-umbrellas { background: url(../css/images/sprite/ico-umbrellas@2x.png) no-repeat 0 0; width: 109px; height: 48px; background-size: 109px 48px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-verify { background: url(../css/images/sprite/ico-verify@2x.png) no-repeat 0 0; width: 57px; height: 74px; background-size: 57px 74px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-wallet { background: url(../css/images/sprite/ico-wallet@2x.png) no-repeat 0 0; width: 32px; height: 28px; background-size: 32px 28px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.logo-footer { background: url(../css/images/sprite/logo-footer@2x.png) no-repeat 0 0; width: 73px; height: 83px; background-size: 73px 83px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.logo-mobile { background: url(../css/images/sprite/logo-mobile@2x.png) no-repeat 0 0; width: 132px; height: 25px; background-size: 132px 25px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.logo { background: url(../css/images/sprite/logo@2x.png) no-repeat 0 0; width: 199px; height: 38px; background-size: 199px 38px; display: inline-block; vertical-align: middle; font-size: 0; }
+}
+
+@media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 288dpi) {
+	.ico-claim { background: url(../css/images/sprite/ico-claim@3x.png) no-repeat 0 0; width: 56px; height: 56px; background-size: 56px 56px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-close-policy { background: url(../css/images/sprite/ico-close-policy@3x.png) no-repeat 0 0; width: 64px; height: 72px; background-size: 64px 72px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-history { background: url(../css/images/sprite/ico-history@3x.png) no-repeat 0 0; width: 60px; height: 45px; background-size: 60px 45px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-umbrellas { background: url(../css/images/sprite/ico-umbrellas@3x.png) no-repeat 0 0; width: 109px; height: 48px; background-size: 109px 48px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-verify { background: url(../css/images/sprite/ico-verify@3x.png) no-repeat 0 0; width: 57px; height: 74px; background-size: 57px 74px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-wallet { background: url(../css/images/sprite/ico-wallet@3x.png) no-repeat 0 0; width: 32px; height: 28px; background-size: 32px 28px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.logo-footer { background: url(../css/images/sprite/logo-footer@3x.png) no-repeat 0 0; width: 73px; height: 83px; background-size: 73px 83px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.logo-mobile { background: url(../css/images/sprite/logo-mobile@3x.png) no-repeat 0 0; width: 132.66666666666666px; height: 25.333333333333332px; background-size: 132.66666666666666px 25.333333333333332px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.logo { background: url(../css/images/sprite/logo@3x.png) no-repeat 0 0; width: 199px; height: 38px; background-size: 199px 38px; display: inline-block; vertical-align: middle; font-size: 0; }
+}
+

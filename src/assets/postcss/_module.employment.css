@@ -1,0 +1,17 @@
+/* ------------------------------------------------------------ *\
+	Employment
+\* ------------------------------------------------------------ */
+
+.employment .employment-head { margin-bottom: 27px; }
+.employment .employment-body { padding-left: 15px; }
+
+.employment .employment-head h2 {  display: inline-block; vertical-align: middle; margin-right: 8px; margin-bottom: 0; }
+.employment .employment-head .link { display: inline-block; vertical-align: middle; margin-top: 0; }
+
+$breakpoint-mobile-portrait {
+	.employment .employment-head { text-align: center; margin-bottom: 30px; }
+	.employment .employment-body { padding-left: 0; }
+
+	.employment .employment-head h2 { display: block; margin-right: 0; }
+	.employment .employment-head .link { display: block; }
+}

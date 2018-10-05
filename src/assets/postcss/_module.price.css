@@ -1,0 +1,31 @@
+/* ------------------------------------------------------------ *\
+	Price
+\* ------------------------------------------------------------ */
+
+.prices { list-style-type: none; }
+.prices:after { @mixin clearfix; }
+
+.price { float: left; text-align: left; }
+.price-secondary { float: right; text-align: right; }
+
+.price h5 { font: 400 15px/1.27 'Maven Pro', sans-serif; color: #048a16; }
+.price p { background: #f3f3f3; font: 400 25px/1.16 'Work Sans', sans-serif; color: #2961ac; padding: 11px 18px; display: inline-block; min-height: 47px; text-align: center; }
+
+$breakpoint-mobile {
+	.price h5 { font-size: 14px; }
+}
+
+$breakpoint-mobile-portrait {
+	.price { float: none; display: block; width: 100%; text-align: left; margin-bottom: 20px; }
+	.price-secondary { float: none; display: block; width: 100%; text-align: left; }
+
+	.price p { width: 100%; font-size: 20px; }
+}
+
+/*  Prices-Secondary  */
+
+.prices-secondary { max-width: 413px; }
+
+$breakpoint-mobile-portrait {
+	.prices-secondary { max-width: 100%; }	
+}
