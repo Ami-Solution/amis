@@ -1,6 +1,11 @@
-# Dynamis app frontend 2 
+# Dyn Amis app frontend 2 
 
 ## Continuous Deployment
+
+login
+**glitch** branch build:
+[![glitch Build is here](https://glitch-badge.glitch.com/?app=magnificent-swim)](https://magnificent-swim.glitch.me/)
+
 **master** branch build:
 [![Heroku Build is here](https://heroku-badge.herokuapp.com/?app=dynamis-frontend)](https://dynamis-frontend.herokuapp.com)
 
@@ -12,7 +17,7 @@
 
 ## Screens
 
-[![screens.png](https://s16.postimg.org/6gow9tctx/screens.png)](https://postimg.org/image/jkugmi4vl/)
+[![screens.png]()]()
 
 ## Dependencies
 

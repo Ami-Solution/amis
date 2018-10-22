@@ -4,7 +4,7 @@
 <body>
 <div class="wrapper">
 	<header class="header header-secondary">
-		<a href="/index.html" class="logo">Dynamis</a>
+		<a href="/index.html" class="logo">Dyn Amis</a>
 		
 		<a href="/login.html" class="btn btn-blue">Login</a>
 	</header><!-- /.header header-secondary -->
