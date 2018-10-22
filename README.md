@@ -1,4 +1,4 @@
-# Dynamis app frontend 2 
+# Dyn Amis app frontend 2 
 
 ## Continuous Deployment
 **master** branch build:
@@ -12,7 +12,7 @@
 
 ## Screens
 
-[![screens.png](https://s16.postimg.org/6gow9tctx/screens.png)](https://postimg.org/image/jkugmi4vl/)
+[![screens.png]()]()
 
 ## Dependencies
 

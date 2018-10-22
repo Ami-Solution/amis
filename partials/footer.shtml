@@ -1,12 +1,12 @@
 
 	<footer class="footer">
 		<div class="shell">
-			<a href="#" class="logo-footer">Dynamis</a>
+			<a href="#" class="logo-footer">Dyn Amis</a>
 
 			<nav class="nav nav-footer">
 				<ul>
 					<li>
-						<a href="/about.html">About Dynamis</a>
+						<a href="/about.html">About Dyn Amis</a>
 					</li>
 					<li>
 						<a href="/privacy_policy.html">Privacy Policy</a>
@@ -41,7 +41,7 @@
 
 		<div class="copyright">
 			<div class="shell">
-				<p>&copy; 2016, <a href="https://github.com/dynamisdao">Dynamis</a></p>
+				<p>&copy; 2018, <a href="https://github.com/ami-solution/amis">Dyn Amis</a></p>
 			</div><!-- /.shell -->
 		</div><!-- /.copyright -->
 	</footer><!-- /.footer -->

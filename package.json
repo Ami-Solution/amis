@@ -1,19 +1,28 @@
 {
-  "name": "Amis",
+  "name": "Dyn Amis",
   "version": "2.1.1",
-  "description": "Asset Mgmt Insurance Solution",
+  "description": "Dynamic Asset Mgmt Insurance Solution",
   "author": "Ami-Solution",
   "main": "js/app.js",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ami-solution/amis/issues"
+  },
   "scripts": {
     "clean": "rimraf dist/",
     "build": "cross-env NODE_ENV=production webpack --config webpack.production.config.js --progress --profile --colors",
     "dev": "babel-node server.js",
     "start2": "babel-node server.js",
     "lint": "eslint js/**",
-    "start1": "node server",
-    "postinstall": "npm run build"
+    "start": "node server.production",
+    "start2": "enable-npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ami-solution/amis.git"
   },
   "dependencies": {
+    "express": "1.x",
     "autoprefixer": "^6.3.7",
     "babel-cli": "^6.14.0",
     "babel-core": "^6.14.0",
