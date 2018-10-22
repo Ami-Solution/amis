@@ -1,15 +1,16 @@
 {
   "name": "Amis",
   "version": "2.1.1",
-  "description": "Amis",
-  "author": null,
+  "description": "Asset Mgmt Insurance Solution",
+  "author": "Ami-Solution",
   "main": "js/app.js",
   "scripts": {
     "clean": "rimraf dist/",
     "build": "cross-env NODE_ENV=production webpack --config webpack.production.config.js --progress --profile --colors",
     "dev": "babel-node server.js",
+    "start2": "babel-node server.js",
     "lint": "eslint js/**",
-    "start": "node server",
+    "start1": "node server",
     "postinstall": "npm run build"
   },
   "dependencies": {

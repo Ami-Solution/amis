@@ -4,7 +4,7 @@
 <body>
 <div class="wrapper">
 	<header class="header">
-		<a href="/index.html" class="logo">Dynamis</a>
+		<a href="/index.html" class="logo">Dyn Amis</a>
 
 		<a href="#" id="nav-trigger" class="nav-trigger material-icons mobile-only">menu</a>
 
