@@ -1,0 +1,39 @@
+/* ------------------------------------------------------------ *\
+	Package
+\* ------------------------------------------------------------ */
+
+.package { background: #f3f3f3; padding: 26px 38px; min-height: 375px; }
+
+.package .package-head { margin-bottom: 30px; }
+.package .package-content { max-width: 894px; margin: auto; }
+.package .package-body { padding: 13px 33px; min-height: 118px; background-image: linear-gradient(270deg, rgba(38,167,222,0.17) 0%, rgba(38,165,220,0.17) 0%, rgba(42,93,169,0.17) 100%, rgba(43,63,148,0.17) 100%); margin-bottom: 12px; }
+
+.package .form-signature { width: 63%; display: inline-block; vertical-align: middle; margin-right: 5px; }
+.package .form-hint { width: 35%; display: inline-block; vertical-align: middle; margin-left: 10px; }
+.package .link { display: inline-block; vertical-align: middle; font-weight: 700; font-size: 15px; }
+
+.package .package-head h2 { display: inline-block; margin-right: 4px; }
+.package .package-head h5 { display: inline-block; vertical-align: bottom; }
+
+$breakpoint-small-desktop {
+	.package { min-height: 100%; }
+
+	.package .form-signature { width: 68%; }
+}
+
+$breakpoint-tablet-portrait {
+	.package { padding: 26px 38px 30px 38px; }
+
+	.package .package-content { max-width: 100%; }
+	.package .form-signature { width: 50%; }
+	.package .package-body { margin-bottom: 20px; }
+}
+
+$breakpoint-mobile {
+	.package .form-signature { width: 100%; display: block; margin-right: 0; margin-bottom: 20px; }
+	.package .link { display: block; width: 100%; margin-top: 0; }	
+}
+
+$breakpoint-mobile-portrait {
+	.package { padding: 20px 15px; }	
+}

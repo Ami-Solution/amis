@@ -1,0 +1,44 @@
+/* ------------------------------------------------------------ *\
+	Slider
+\* ------------------------------------------------------------ */
+
+.slider { max-width: 1106px; }
+
+.slider .slider-inner { margin-bottom: 18px; }
+
+.slider .ui-slider-horizontal { height: 3px; background: #a1a1a1; }
+.slider .ui-widget.ui-widget-content { border: 0; }
+.slider .ui-slider-range { background: #2961ac; }
+
+.slider .ui-state-default, 
+.slider .ui-widget-content .ui-state-default, 
+.slider .ui-widget-header .ui-state-default, 
+.slider .ui-button, 
+.slider html .ui-button.ui-state-disabled:hover, 
+.slider html .ui-button.ui-state-disabled:active { width: 15px; height: 15px; border-radius: 50%; background: #2961ac; border: 0; position: absolute; top: 49%; transform: translateY(-50%); cursor: pointer; }
+
+$breakpoint-mobile-portrait {
+	.slider { max-width: 100%; }
+
+	.slider .slider-inner { margin-bottom: 20px; }	
+}
+
+.slider .rc-slider-handle {
+    position: absolute;
+    margin-left: -7px;
+    margin-top: -7px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: solid 1px #2A5FAB;
+    background-color: #2A5FAB;
+}
+
+.slider .rc-slider-track {
+    position: absolute;
+    left: 0;
+    height: 4px;
+    border-radius: 6px;
+    background-color: #2A5FAB;
+}

@@ -1,0 +1,22 @@
+/* ------------------------------------------------------------ *\
+	Month
+\* ------------------------------------------------------------ */
+
+.months { list-style-type: none; display: inline-block; vertical-align: top; width: 31.5%; }
+
+.month { display: block; }
+
+.months h5 { margin-bottom: 12px;  font: 400 15px/1.27 'Maven Pro', sans-serif; color: #048a16;  }
+.month span { display: inline-block; vertical-align: top; font: 400 15px/1.27 'Maven Pro', sans-serif; color: #4a4a4a; width: 33px;  }
+
+$breakpoint-small-desktop {
+	.months { width: 50%; }
+}
+
+$breakpoint-tablet-portrait {
+	.months { width: 100%; display: block; }
+}
+
+$breakpoint-mobile-portrait {
+	.month span { display: block; width: 100%; }
+}

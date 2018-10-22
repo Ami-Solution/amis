@@ -1,0 +1,2 @@
+@define-mixin clearfix { content: ''; clear: both; display: table; height: 0; line-height: 0; width: 100%; }
+@define-mixin shadow { box-shadow: 0 2px 5px rgba(0,0,0,.09); }

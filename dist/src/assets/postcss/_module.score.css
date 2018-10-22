@@ -1,0 +1,5 @@
+/* ------------------------------------------------------------ *\
+	Score
+\* ------------------------------------------------------------ */
+
+.score { display: inline-block; vertical-align: middle; background: #A1A1A1; font-size: 15px; line-height: 20px; min-width: 32px; padding: 0 3px; text-align: center; color: #fff; font-weight: 500; }

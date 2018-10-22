@@ -1,0 +1,11 @@
+/* ------------------------------------------------------------ *\
+	Assessment
+\* ------------------------------------------------------------ */
+
+.assessment .assessment-head { margin-bottom: 25px; }
+.assessment .assessment-body { padding-left: 18px; }
+
+$breakpoint-mobile-portrait {
+	.assessment .assessment-head { margin-bottom: 30px; text-align: center; }
+	.assessment .assessment-body { padding-left: 0; }
+}

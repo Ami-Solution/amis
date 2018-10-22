@@ -1,0 +1,26 @@
+/* ------------------------------------------------------------ *\
+	User
+\* ------------------------------------------------------------ */
+
+.user .user-head { margin-bottom: 12px; }
+.user .user-body { padding-left: 20px; }
+
+.user .user-head h2 { display: inline-block; margin-bottom: 0; vertical-align: middle; }
+.user .user-head .link { display: inline-block; margin-bottom: 0; vertical-align: middle; }
+
+.user .user-body a { background: #d8d7d7; display: inline-block; border-radius: 18px; font: 400 15px/1.27 'Maven Pro', sans-serif; color: #4a4a4a; width: 148px; transition: background .2s ease; }
+.user .user-body a:hover { text-decoration: none; }
+.user .user-body span { width: 39px; height: 39px; display: inline-block; background: #bebebe; border-radius: 50%; position: relative; overflow: hidden; vertical-align: middle; margin-right: 6px; }
+.user .user-body i { font-size: 45px; font-weight: 400; line-height: 1; color: #4a4a4a; position: absolute; top: 2px; left: 50%; transform: translateX(-50%); }
+.user .user-body small { font-size: 15px; vertical-align: middle; display: inline-block; }
+
+$breakpoint-mobile-portrait {
+	.user { text-align: center; }
+
+	.user .user-body { padding-left: 0; }
+
+	.user .user-head h2 { display: block; }
+	.user .user-head .link { display: block; }
+
+	.user .user-body a { text-align: left; }
+}

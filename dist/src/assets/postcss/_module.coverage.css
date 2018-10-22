@@ -1,0 +1,11 @@
+/* ------------------------------------------------------------ *\
+	Coverage
+\* ------------------------------------------------------------ */
+
+.coverage .coverage-head { margin-bottom: 34px; }
+.coverage .coverage-body { padding-left: 18px; }
+
+$breakpoint-mobile-portrait {
+	.coverage .coverage-head { margin-bottom: 30px; text-align: center; }
+	.coverage .coverage-body { padding-left: 0; }	
+}

@@ -1,0 +1,25 @@
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+
+	<title>Dynamis</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="css/images/favicon.ico">
+
+	<!-- Vendor Styles -->
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700|Work+Sans:400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="vendor/jquery-slider/jquery-ui.css" />
+
+	<!-- App Styles -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Vendor JS -->
+	<script src="vendor/jquery-1.12.4.min.js"></script>
+	<script src="vendor/jquery-slider/jquery-ui.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.ui.touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+
+	<!-- App JS -->
+	<script src="js/functions.js"></script>
+</head>

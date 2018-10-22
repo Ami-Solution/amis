@@ -1,0 +1,5 @@
+/* ------------------------------------------------------------ *\
+	Badge
+\* ------------------------------------------------------------ */
+
+.badge { background: #fff; font-size: 14px; line-height: 20px; min-width: 20px; height: 20px; padding: 0 3px; border-radius: 50%; box-shadow: 0 2px 4px rgba(0,0,0,.27); color: #26A9E0; text-align: center; display: inline-block; }

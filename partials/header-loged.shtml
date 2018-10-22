@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--#include virtual="head.shtml" -->
+<body>
+<div class="wrapper">
+	<header class="header header-secondary header-loged">
+		<a href="/index.html" class="logo">Dynamis</a>
+		
+		<nav class="nav nav-user">
+			<ul>
+				<li>
+					<a href="#" class="dropdown-trigger">
+						<img src="css/images/avatar.png" alt="Deon Elliott" width="39" height="39">
+
+						Your logged in as
+
+						<strong><i class="material-icons">arrow_drop_down</i> Deon Elliott</strong>
+					</a>
+
+					<div class="dropdown">
+						<ul>
+							<li>
+								<a href="#">Link One</a>
+							</li>
+							<li>
+								<a href="#">Link Two</a>
+							</li>
+							<li>
+								<a href="#">Link Three</a>
+							</li>
+						</ul>
+					</div><!-- /.dropdown -->
+				</li>
+			</ul>
+		</nav><!-- /.nav nav-user -->
+	</header><!-- /.header header-secondary header-loged -->

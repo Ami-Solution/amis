@@ -1,0 +1,15 @@
+/* ------------------------------------------------------------ *\
+	Link
+\* ------------------------------------------------------------ */
+
+.link-edit,
+.link-invite { font-family: 'Maven Pro', 'Arial', 'Helvetica', sans-serif; display: inline-block; font-size: 15px; line-height: 21px; font-weight: 700; text-transform: uppercase; color: #2A5FAB; transition: color .15s; }
+
+.link-edit:hover,
+.link-invite:hover { text-decoration: none; color: #26A9E0; }
+
+.link-add { color: #4A4A4A; font-size: 20px; vertical-align: middle; transition: color .15s; }
+.link-add:hover { color: #2961AC; text-decoration: none; }
+
+.link-more { width: 24px; height: 24px; line-height: 24px; text-align: center; border-radius: 50%; position: absolute; bottom: 10px; right: 12px; transition: background .15s, transform .15s; color: #000; }
+.link-more:hover { background: #eee; text-decoration: none; transform: rotate(90deg); }

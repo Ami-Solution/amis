@@ -1,0 +1,38 @@
+/* ------------------------------------------------------------ *\
+	Header
+\* ------------------------------------------------------------ */
+
+.header { background: #fff; position: relative; z-index: 10; @mixin shadow; }
+.header:before,
+.header:after { @mixin clearfix; }
+
+/*  Header-Secondary  */
+
+.header-secondary .btn-blue { float: right; margin-top: 15px; margin-right: 43px; }
+
+$breakpoint-tablet-portrait {
+	.header-secondary .btn-blue { margin-top: 8px; }	
+}
+
+$breakpoint-mobile {
+	.header-secondary { position: relative; height: 57px; }
+
+	.header-secondary .logo-mobile { top: 50%;  left: 20px; transform: translateY(-50%); }
+	.header-secondary .btn-blue { position: absolute; top: 50%; right: 20px; transform: translateY(-50%); margin: 0; }
+}
+
+/*  Header-Loged  */
+
+.header-loged .nav-user { margin-right: 24px; }
+.header-loged .nav-user li a:before { display: none; }
+
+$breakpoint-tablet-portrait {
+	.header-loged .nav-user { margin-top: 5px; }
+
+	.header-loged .nav-user .dropdown { left: auto; right: 0; top: 100%; }
+}
+
+$breakpoint-mobile {
+	.header-loged .nav-user { position: absolute; top: 50%; right: 20px; transform: translateY(-50%); margin: 0; }
+}
+

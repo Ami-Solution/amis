@@ -1,0 +1,50 @@
+
+	<footer class="footer">
+		<div class="shell">
+			<a href="#" class="logo-footer">Dynamis</a>
+
+			<nav class="nav nav-footer">
+				<ul>
+					<li>
+						<a href="/about.html">About Dynamis</a>
+					</li>
+					<li>
+						<a href="/privacy_policy.html">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="#">FAQs</a>
+					</li>
+				</ul>
+
+				<ul>
+					<li>
+						<a href="#">My Policy</a>
+					</li>
+					<li>
+						<a href="#">Open A Claim</a>
+					</li>
+					<li>
+						<a href="#">Make a Payment</a>
+					</li>
+				</ul>
+
+				<ul>
+					<li>
+						<a href="#">Assessor Dashboard</a>
+					</li>
+					<li>
+						<a href="#">Verify My Policy</a>
+					</li>
+				</ul>
+			</nav><!-- /.nav nav-footer -->
+		</div><!-- /.shell -->
+
+		<div class="copyright">
+			<div class="shell">
+				<p>&copy; 2016, <a href="https://github.com/dynamisdao">Dynamis</a></p>
+			</div><!-- /.shell -->
+		</div><!-- /.copyright -->
+	</footer><!-- /.footer -->
+</div><!-- /.wrapper -->
+</body>
+</html>

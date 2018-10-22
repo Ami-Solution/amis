@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--#include virtual="head.shtml" -->
+<body>
+<div class="wrapper">
+	<header class="header">
+		<a href="/index.html" class="logo">Dynamis</a>
+
+		<a href="#" id="nav-trigger" class="nav-trigger material-icons mobile-only">menu</a>
+
+		<nav class="nav nav-primary">
+			<a href="#" id="nav-close" class="nav-close material-icons mobile-only">close</a>
+
+			<ul>
+				<li class="current">
+					<a href="#">
+						My<br> 
+						Policy
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Make a<br>
+						Payment
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Open a<br>
+						Claim
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Assessor<br>
+						Dashboard
+					</a>
+				</li>
+			</ul>
+		</nav><!-- /.nav nav-primary -->
+
+		<nav class="nav nav-secondary">
+			<ul>
+				<li>
+					<a href="#">
+						<i class="ico-wallet"></i>
+
+						Wallet
+					</a>
+				</li>
+			</ul>
+		</nav><!-- /.nav nav-secondary -->
+
+		<nav class="nav nav-user">
+			<ul>
+				<li>
+					<a href="#" class="dropdown-trigger">
+						<img src="css/images/avatar.png" alt="Deon Elliott" width="39" height="39">
+
+						Your logged in as
+
+						<strong><i class="material-icons">arrow_drop_down</i> Deon Elliott</strong>
+
+						<span class="badge">2</span>
+					</a>
+
+					<div class="dropdown">
+						<ul>
+							<li>
+								<a href="#">Link One</a>
+							</li>
+							<li>
+								<a href="#">Link Two</a>
+							</li>
+							<li>
+								<a href="#">Link Three</a>
+							</li>
+						</ul>
+					</div><!-- /.dropdown -->
+				</li>
+			</ul>
+		</nav><!-- /.nav nav-user -->
+	</header><!-- /.header -->
