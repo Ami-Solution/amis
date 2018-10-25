@@ -35,7 +35,7 @@ jobs:
           name: Change permissions from root to user
           command: sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
       - run:
-          name: Install Babel
+          name: Install webpack
           command: npm install --global webpack
       # Download and cache dependencies
       - restore_cache:
@@ -43,4 +43,4 @@ jobs:
           - v1-dependencies-{{ checksum "package.json" }}
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
-      - run: webpack
+      - run: webpack-cli
