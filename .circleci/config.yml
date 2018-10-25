@@ -14,21 +14,7 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mongo:3.4.4
     working_directory: ~/repo
-      - image: circleci/node:8.12
-        environment:
-          - PORT: 3000
-          - PGUSER: 'test'
-          - PGPASSWORD: 'test'
-          - PGDATABASE: 'test'
-          - PGHOST: 'localhost'
-          - PGPORT: '5432'
-    
-      - image: circleci/postgres:10.1
-        environment:
-          - POSTGRES_USER: test
-          - POSTGRES_DB: test
-          - POSTGRES_PASSWORD: test
-      - image: davidqhr/0x-testrpc:latest
+
     steps:
       - checkout
       
