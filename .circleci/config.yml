@@ -36,21 +36,21 @@ jobs:
           command: sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
       - run:
           name: Install Babel
-          command: npm install --global babel
+          command: npm install --global babel-cli
       - run:
           name: Clear Cached Dependencies
-          command: babel clean --yes
+          command: babel-cli clean --yes
           
       - run:
           name: Install Package Dependencies 
-          command: babel bootstrap --stream
+          command: babel-cli bootstrap --stream
       - run:
           name: Build Packages
-          command: CI=false babel run build --stream
+          command: CI=false babel-cli run build --stream
       # Download and cache dependencies
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "package.json" }}
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
-      - run: babel-node server
+      - run: babel-cli server
