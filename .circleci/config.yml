@@ -37,16 +37,6 @@ jobs:
       - run:
           name: Install Babel
           command: npm install --global babel-cli
-      - run:
-          name: Clear Cached Dependencies
-          command: babel-cli clean --yes
-          
-      - run:
-          name: Install Package Dependencies 
-          command: babel-cli bootstrap --stream
-      - run:
-          name: Build Packages
-          command: CI=false babel-cli run build --stream
       # Download and cache dependencies
       - restore_cache:
           keys:
